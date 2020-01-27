@@ -11,7 +11,7 @@ public class VehicleNoise {
 		Boat baglietto = new Boat();
 		System.out.println(baglietto.makeNoise());
     
-    	Camper jayco = new Camper();
+    Camper jayco = new Camper();
 		System.out.println(jayco.makeNoise());
 		
 		Bus blueBird = new Bus();
@@ -22,8 +22,11 @@ public class VehicleNoise {
 		
 		Airplane airbus = new Airplane();
 		System.out.println(airbus.makeNoise());
-		
-		Moped scooter = new Moped();
+    		
+		Van iveco = new Van();
+		System.out.println(iveco.makeNoise());
+    
+    Moped scooter = new Moped();
 		System.out.println(scooter.makeNoise());
 	}
 
