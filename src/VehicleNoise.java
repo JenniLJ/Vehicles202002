@@ -22,6 +22,9 @@ public class VehicleNoise {
 		
 		Airplane airbus = new Airplane();
 		System.out.println(airbus.makeNoise());
+		
+		Moped scooter = new Moped();
+		System.out.println(scooter.makeNoise());
 	}
 
 }
