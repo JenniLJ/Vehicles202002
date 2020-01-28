@@ -28,6 +28,9 @@ public class VehicleNoise {
     
     Moped scooter = new Moped();
 		System.out.println(scooter.makeNoise());
+    
+    Semi semi = new Semi();
+		System.out.println(semi.makeNoise());
 	}
 
 }
