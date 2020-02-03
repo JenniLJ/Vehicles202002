@@ -26,11 +26,14 @@ public class VehicleNoise {
 		Van iveco = new Van();
 		System.out.println(iveco.makeNoise());
     
-    Moped scooter = new Moped();
+		Moped scooter = new Moped();
 		System.out.println(scooter.makeNoise());
     
-    Semi semi = new Semi();
+		Semi semi = new Semi();
 		System.out.println(semi.makeNoise());
+		
+		Bike bike = new Bike();
+		System.out.println(bike.makeNoise());
 	}
 
 }
